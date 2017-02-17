@@ -1,55 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>com.application.base</groupId>
-		<artifactId>base-parent</artifactId>
-		<version>1.0.0-RELEASE</version>
-	</parent>
-	<name>base-redis</name>
-	<artifactId>base-redis</artifactId>
-	<packaging>jar</packaging>
-	<url>http://maven.apache.org</url>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<redis.version>2.8.2</redis.version>
-		<codis.version>0.3.1</codis.version>
-	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>redis.clients</groupId>
-			<artifactId>jedis</artifactId>
-			<version>${redis.version}</version>
-		</dependency>
-		<dependency>
-		    <groupId>io.codis.jodis</groupId>
-		    <artifactId>jodis</artifactId>
-		    <version>${codis.version}</version>
-		</dependency>
-		<!-- utils 设置 -->
-		<dependency>
-			<groupId>com.application.base</groupId>
-			<artifactId>base-utils</artifactId>
-			<version>1.0.0-RELEASE</version>
-		</dependency>
-		
-	</dependencies>
-	
-	<!-- 私服地址设置 -->
-	<!-- admin/admin  -->
- 	<distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://101.200.169.149/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://101.200.169.149/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
     
 </project>
