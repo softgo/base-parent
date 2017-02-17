@@ -1,0 +1,9 @@
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/morphia/api/MonGoDAO.java
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/spring/api/BaseQueryService.java
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/morphia/MonGoBaseDaoImpl.java
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/spring/factory/MongoFactory.java
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/morphia/MonGoBaseDao.java
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/morphia/api/DataStore.java
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/morphia/api/MonGoHelper.java
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/morphia/api/MonGoSettingManager.java
+/Users/Eclipse/SpringSTSWS/BaseCore/base-parent/base-mongo/src/main/java/com/application/base/mongo/spring/api/MongoBaseService.java

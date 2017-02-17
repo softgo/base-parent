@@ -1,0 +1,6 @@
+com/application/base/test/service/MongoMorphiaService.class
+com/application/base/MonGoInfoTest.class
+com/application/base/test/BaseMorphiaDAO.class
+com/application/base/test/dao/MongoMorphiaDao.class
+com/application/base/test/entity/MongoMorphia.class
+com/application/base/MongoMorphiaTest.class

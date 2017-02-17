@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resultMessages>
+
+    <resultMessage code="0"  key="SYSTEM_SUCCESS" message="操作成功"/>
+    <resultMessage code="500" key="SYSTEM_ERROR"  message="系统错误"/>
+    <resultMessage code="404" key="INTERFACE_NOT_FOUND"  message="接口不存在"/>
+	
+	<!-- 通用消息设置, -->
+    <resultMessage code="111111" key="PARAMS_EMPTY" message="参数不完整,请检查参数"/>
+    <resultMessage code="222222" key="VALIDATED_ERROR"  message="参数格式不符合要求,请检查参数"/>
+	<resultMessage code="333333" key="GET_RESULT_IS_NULL" message="查询获得的结果为空"/>
+	<resultMessage code="444444" key="OPERATE_ACTION_IS_FAILD" message="CRUD操作失败"/>
+	<resultMessage code="555555" key="GET_RESULT_COUNT_FAILD" message="查询总个数失败"/>
+
+</resultMessages>

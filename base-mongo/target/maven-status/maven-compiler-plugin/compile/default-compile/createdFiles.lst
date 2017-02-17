@@ -1,0 +1,10 @@
+com/application/base/mongo/morphia/MonGoBaseDaoImpl.class
+com/application/base/mongo/morphia/api/MonGoHelper.class
+com/application/base/mongo/morphia/api/MonGoHelper$MongoHolder.class
+com/application/base/mongo/morphia/api/MonGoSettingManager.class
+com/application/base/mongo/spring/api/BaseQueryService.class
+com/application/base/mongo/morphia/api/DataStore.class
+com/application/base/mongo/spring/api/MongoBaseService.class
+com/application/base/mongo/morphia/MonGoBaseDao.class
+com/application/base/mongo/spring/factory/MongoFactory.class
+com/application/base/mongo/morphia/api/MonGoDAO.class

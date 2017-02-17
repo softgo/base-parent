@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.application.base</groupId>
+		<artifactId>base-parent</artifactId>
+		<version>1.0.0-RELEASE</version>
+	</parent>
+	<name>base-mongo</name>
+	<artifactId>base-mongo</artifactId>
+	<packaging>jar</packaging>
+    <url>http://maven.apache.org</url>
+	
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mysql-connector-java.version>5.1.38</mysql-connector-java.version>
+		<dom4j-version>1.6.1</dom4j-version>
+		
+		<mongo-java-driver.version>3.3.0</mongo-java-driver.version>
+		<spring-data-mongodb.version>1.9.2.RELEASE</spring-data-mongodb.version>
+		<spring-data-mongodb-cross-store.version>1.9.2.RELEASE</spring-data-mongodb-cross-store.version>
+		<spring-data-commons.version>1.12.2.RELEASE</spring-data-commons.version>
+		<spring-data-commons-core.version>1.4.1.RELEASE</spring-data-commons-core.version>
+		<morphia.version>1.0.1</morphia.version>
+
+		 <!-- 下载需要的 jar  -->
+		<downloadSources>true</downloadSources>
+	</properties>
+	
+	
+	<dependencies>
+	
+		<!-- utils -->
+		<dependency>
+			<groupId>com.application.base</groupId>
+			<artifactId>base-utils</artifactId>
+			<version>1.0.0-RELEASE</version>
+		</dependency>
+		
+        <dependency>
+	    	<groupId>org.mongodb.morphia</groupId>
+		    <artifactId>morphia</artifactId>
+		    <version>${morphia.version}</version>
+		</dependency>
+		
+        <!-- mongo -->
+        <dependency>
+		    <groupId>org.mongodb</groupId>
+		    <artifactId>mongo-java-driver</artifactId>
+		    <version>${mongo-java-driver.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.data</groupId>
+		    <artifactId>spring-data-mongodb</artifactId>
+		    <version>${spring-data-mongodb.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.data</groupId>
+		    <artifactId>spring-data-mongodb-cross-store</artifactId>
+		    <version>${spring-data-mongodb-cross-store.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.data</groupId>
+		    <artifactId>spring-data-commons</artifactId>
+		    <version>${spring-data-commons.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.data</groupId>
+		    <artifactId>spring-data-commons-core</artifactId>
+		    <version>${spring-data-commons-core.version}</version>
+		</dependency>
+	</dependencies>
+	
+	<!-- 私服地址设置 -->
+	<!-- admin/admin  -->
+ 	<distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://101.200.169.149/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://101.200.169.149/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+    
+</project>
